@@ -29,6 +29,12 @@
                 '                </div> <!-- end chat-message-content -->\n' +
                 '            </div><hr>');
         }
-    })
+    });
+
+    function sendMessageToBot(message) {
+        $.get('http://botleopard.appspot.com/v1/bot', function() {
+            
+        });
+    }
 
 }) ();
