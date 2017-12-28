@@ -34,7 +34,7 @@
                 '            </div><hr>');
 
 
-            $(".chat-history").stop().animate({ scrollTop: $(".chat-history")[0].scrollHeight }, 1000);
+            $(".chat-history").stop().animate({ scrollTop: $(".chat-history")[0].scrollHeight}, 1000);
         }
     });
 
@@ -50,8 +50,8 @@
                 '                    <p>' + res.text + '</p>\n' +
                 '                </div> <!-- end chat-message-content -->\n' +
                 '            </div><hr>');
-
-            $(".chat-history").stop().animate({ scrollTop: $(".chat-history")[0].scrollHeight }, 1000);
+            
+            $(".chat-history").stop().animate({ scrollTop: $(".chat-history")[0].scrollHeight}, 1000);
         });
     }
 
